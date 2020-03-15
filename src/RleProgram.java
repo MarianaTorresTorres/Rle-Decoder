@@ -292,20 +292,17 @@ public class RleProgram {
             } else if (menuOption == 3) {
                 System.out.print("Enter an RLE string to be decoded: ");
                 inputString = input.next();
-                toStore = stringToRle(inputString); //works but not flat yet, done in the last options
+                toStore = stringToRle(inputString);
                 toDisplay = decodeRle(toStore);
-                //System.out.println(Arrays.toString(toDisplay));
             } else if (menuOption == 4) {
                 System.out.print("Enter the hex string holding RLE data: ");
                 inputString = input.next();
-                toStore = stringToData(inputString); //works but not flat yet
+                toStore = stringToData(inputString);
                 toDisplay = decodeRle(toStore);
-                //System.out.println(Arrays.toString(toDisplay));
             } else if (menuOption == 5) {
                 System.out.print("Enter the hex string holding flat data: ");
                 inputString = input.next();
-                toDisplay = stringToData(inputString); //works & already flat
-                //System.out.println(Arrays.toString(toDisplay));
+                toDisplay = stringToData(inputString);
                 /*For options 3 and 4, it passes the input through the respective method that will turn them into RLE
                 * byte data arrays and then it passes that through the decode method so that they all have the same form
                 * before turning them into anything else.*/

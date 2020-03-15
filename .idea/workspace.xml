@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebece705-db5e-4ded-8322-d36cd5a21c48" name="Default Changelist" comment="" />
+    <list default="true" id="ebece705-db5e-4ded-8322-d36cd5a21c48" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/RleProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RleProgram.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YvAXlEuis1qtwSTvdgoBpE3KpF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -59,6 +65,7 @@
       <workItem from="1583812739317" duration="26861000" />
       <workItem from="1583899320079" duration="8011000" />
       <workItem from="1584027202756" duration="33047000" />
+      <workItem from="1584304746018" duration="719000" />
     </task>
     <servers />
   </component>
